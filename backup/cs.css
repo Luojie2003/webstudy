@@ -1,0 +1,21 @@
+#my-slider{
+    position: relative;
+    width: 790px;
+}
+.slider-list ul{
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.slider_list__item,
+.slider_list__item_selected{
+    position: absolute;
+    transition: opacity 1s;
+    opacity: 0;
+    text-align: center;
+}
+.slider_list__item_selected{
+    transition:  opacity 1s;
+    opacity: 1;
+}
